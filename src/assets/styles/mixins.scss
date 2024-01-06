@@ -1,0 +1,86 @@
+@import './variables.scss';
+
+@mixin hover {
+  @media (hover: hover) {
+    &:hover:not(.focus-visible):not(:disabled) {
+      @content;
+    }
+  }
+}
+
+@mixin focus {
+  &.focus-visible:focus {
+    @content;
+  }
+}
+
+@mixin active {
+  @media (hover: hover) {
+    &:active:not(.focus-visible) {
+      @content;
+    }
+  }
+}
+
+@mixin hover-focus {
+  @media (hover: hover) {
+    &:hover:not(.focus-visible) {
+      @content;
+    }
+  }
+
+  &.focus-visible:focus {
+    @content;
+  }
+}
+
+@mixin pseudo($width, $height) {
+  position: absolute;
+  content: "";
+  width: $width;
+  height: $height;
+}
+
+@function toRem($value) {
+  $remValue: calc($value / 16) + rem; 
+  @return $remValue;
+}
+
+@mixin vp-375 {
+  @media all and (min-width: $vp-375) {
+    @content;
+  }
+}
+
+@mixin vp-744 {
+  @media all and (min-width: $vp-744) {
+    @content;
+  }
+}
+
+@mixin vp-1024 {
+  @media all and (min-width: $vp-1024) {
+    @content;
+  }
+}
+
+@mixin vp-1200 {
+  @media all and (min-width: $vp-1200) {
+    @content;
+  }
+}
+
+@mixin vp-1440 {
+  @media all and (min-width: $vp-1440) {
+    @content;
+  }
+}
+
+@mixin vp-1920 {
+  @media all and (min-width: $vp-1920) {
+    @content;
+  }
+}
+
+// ---------------------------------
+

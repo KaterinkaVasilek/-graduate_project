@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "DMSerifDisplay";
+  src: local("DMSerifDisplay-Regular"),
+    local("DMSerifDisplay-Regular"),
+    url("../fonts/DMSerifDisplay-Regular.woff2") format("woff2"),
+    url("../fonts/DMSerifDisplay-Regular.woff") format("woff"),
+    url("../fonts/DMSerifDisplay-Regular.ttf") format("ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: local("Jost-Regular"),
+    local("Jost-Regular"),
+    url("../fonts/Jost-Regular.woff2") format("woff2"),
+    url("../fonts/Jost-Regular.woff") format("woff"),
+    url("../fonts/Jost-Regular.ttf") format("ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: local("Jost-SemiBold"),
+    local("Jost-SemiBold"),
+    url("../fonts/Jost-SemiBold.woff2") format("woff2"),
+    url("../fonts/Jost-SemiBold.woff") format("woff"),
+    url("../fonts/Jost-SemiBold.ttf") format("ttf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}

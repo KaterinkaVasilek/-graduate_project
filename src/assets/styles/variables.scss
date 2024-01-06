@@ -1,0 +1,49 @@
+// Colors
+// ---------------------------------
+
+// Project palette
+
+$color-black: #292f36;
+$color-white: #ffffff;
+$color-dark-grey: #4d5053;
+$color-light-beige: #f4f0ec;
+$color-light-grey: #e7e7e7;
+$color-dark-gold: #cda274;
+$color-gray: #c4c4c4;
+
+// Gradient
+
+
+// Shadows
+
+$shadow025: 0 10px 30px 0 rgba(255, 255, 255, 0.25); // Typography
+// ---------------------------------
+
+// переменная используемая в html для подключения скейлинга
+$fz-titles: 50px;
+$fz-secondary: 20px;
+$lh-titles: 125%;
+$lh-secondary: 150%;
+$fw-default: 400;
+
+// у некоторых шрифтов в ios возникают проблемы с символом рубля
+// https://www.artlebedev.ru/kovodstvo/sections/159/#13
+$ff-secondary: "Jost", "Arial", sans-serif;
+$ff-titles: "DMSerifDisplay", sans-serif;
+
+// Animation
+// ---------------------------------
+
+// Viewports
+// ---------------------------------
+
+$vp-375: 375px;
+$vp-744: 744px;
+$vp-1200: 1200px;
+$vp-1440: 1440px;
+
+// Retina
+// ---------------------------------
+
+$retina-dpi: 144dpi;
+$retina-dppx: 1.5dppx;

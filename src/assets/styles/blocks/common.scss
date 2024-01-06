@@ -1,0 +1,87 @@
+.common__wrapper {
+  margin-bottom: 96px;
+
+  &--mb {
+    margin-bottom: 51px;
+  }
+}
+
+.common__logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: $ff-titles;
+  font-size: 40px;
+  line-height: $lh-titles;
+}
+
+.common__logo-icon {
+  width: 34px;
+  height: 34px;
+}
+
+.common__heading {
+  margin: 0 auto 93px;
+  max-width: 737px;
+  text-align: center;
+
+  &--mb {
+    margin-bottom: 52px;
+  }
+
+  &--mw {
+    max-width: 100%;
+  }
+}
+
+.common__title {
+  margin-bottom: 8px;
+  font-family: $ff-titles;
+  font-size: $fz-titles;
+  line-height: $lh-titles;
+  letter-spacing: 1px;
+
+  &--mb {
+    margin-bottom: 27px;
+  }
+
+  &--params {
+    margin-bottom: 30px;
+    text-align: left;
+  }
+}
+
+.common__subtitle {
+  font-family: $ff-secondary;
+  font-size: 22px;
+  line-height: $lh-secondary;
+  letter-spacing: 0.22px;
+}
+
+.common__arrow {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  background-color: $color-light-beige;
+  border-radius: 100%;
+
+  &--wh {
+    width: 52px;
+    height: 52px;
+  }
+
+  &::after {
+    @include pseudo(15px, 15px);
+    right: 28px;
+    border-top: 2px solid $color-black;
+    border-left: 2px solid $color-black;
+    transform: rotate(135deg);
+  }
+}
+
+.common__arrow--wh::after {
+  @include pseudo(12px, 12px);
+  right: 22px;
+}
